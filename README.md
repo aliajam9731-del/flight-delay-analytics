@@ -1,44 +1,61 @@
 # ✈️ Airline Operations Performance Analytics
 
-A data-driven analysis of airline operational performance using real BTS Flight Data 2024. This project evaluates operational KPIs, identifies the primary causes of flight delays, benchmarks airline and airport performance, and provides actionable business recommendations for improving airline operations.
+> A data-driven analysis of airline operational performance using real BTS Flight Data 2024.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-orange)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
 ---
 
-## 📌 Business Problem
+# 📖 Project Overview
 
-Airlines operate thousands of flights every day. Operational disruptions such as delays, cancellations, and inefficient aircraft utilization reduce customer satisfaction and increase operating costs.
+Commercial airlines operate thousands of flights every day. Operational disruptions such as delays, cancellations, and inefficient aircraft utilization can significantly increase operating costs while reducing customer satisfaction.
 
-The objective of this project is to analyze real flight operations data to answer one key business question:
-
-> **How can an airline improve its operational performance using operational data?**
+This project analyzes real-world flight operations data published by the **Bureau of Transportation Statistics (BTS)** to evaluate airline operational performance and identify opportunities for operational improvement.
 
 ---
 
-## 🎯 Project Objectives
+# 🎯 Business Problem
+
+**How can an airline improve its operational performance using operational flight data?**
+
+To answer this question, the project evaluates operational KPIs, benchmarks airlines and airports, identifies the major causes of delays, and generates actionable business insights.
+
+---
+
+# 🎯 Project Objectives
 
 - Evaluate airline operational performance
 - Measure key operational KPIs
-- Compare airline performance
-- Compare airport performance
-- Identify the major causes of delays
-- Generate data-driven operational recommendations
+- Benchmark airline performance
+- Benchmark airport performance
+- Identify the primary causes of flight delays
+- Analyze operational trends
+- Generate business recommendations
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
-**Source:** Bureau of Transportation Statistics (BTS)
+**Source**
+
+Bureau of Transportation Statistics (BTS)
 
 Dataset:
+
 Flight Data 2024
 
-The raw dataset is not included in this repository because of GitHub file size limitations.
+> **Note**
+>
+> The original dataset is not included in this repository because it exceeds GitHub's file size limits.
 
 ---
 
-## 📊 Operational KPIs
+# 📊 Operational KPIs
 
-This project evaluates:
+This project evaluates the following metrics:
 
 - Total Flights
 - On-Time Performance (OTP)
@@ -49,7 +66,31 @@ This project evaluates:
 
 ---
 
-## 📈 Analysis Performed
+# 🔍 Project Workflow
+
+```
+Business Problem
+        ↓
+Data Understanding
+        ↓
+Operational KPI Analysis
+        ↓
+Airline Performance Analysis
+        ↓
+Airport Performance Analysis
+        ↓
+Delay Root Cause Analysis
+        ↓
+Time-Based Analysis
+        ↓
+Business Insights
+        ↓
+Management Recommendations
+```
+
+---
+
+# 📈 Analysis Performed
 
 - Data Understanding
 - Data Quality Assessment
@@ -57,13 +98,31 @@ This project evaluates:
 - Airline Performance Analysis
 - Airport Performance Analysis
 - Delay Root Cause Analysis
-- Time-Based Analysis
+- Time-Based Operational Analysis
 - Executive Dashboard
 - Business Recommendations
 
 ---
 
-## 🛠 Technologies
+# 📷 Project Visualizations
+
+## Airline On-Time Performance
+
+![Airline OTP](images/airline_otp.png)
+
+---
+
+## 💡 Key Business Insights
+
+- Airline operational performance varies significantly across carriers.
+- Carrier Delay and Late Aircraft Delay are the dominant delay sources.
+- Airport performance has a measurable impact on arrival delays.
+- Operational KPIs provide an effective framework for monitoring airline performance.
+- Data-driven decision making can support continuous operational improvement.
+
+---
+
+# 🛠 Technologies
 
 - Python
 - Pandas
@@ -73,14 +132,14 @@ This project evaluates:
 
 ---
 
-## 📁 Project Structure
+# 📁 Repository Structure
 
-```text
+```
 flight-delay-analytics/
 │
+├── images/
 ├── notebooks/
 ├── data/
-├── images/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -88,30 +147,27 @@ flight-delay-analytics/
 
 ---
 
-## 💡 Key Business Insights
-
-The analysis demonstrates that operational delays are primarily driven by a limited number of controllable factors, particularly carrier-related delays and late aircraft operations.
-
-The results can support airline operations teams in prioritizing improvement initiatives and monitoring operational performance.
-
----
-
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
 - Flight Delay Prediction using Machine Learning
 - Interactive Power BI Dashboard
 - Route Performance Analysis
 - Aircraft Utilization Analysis
-- Predictive Analytics
-- Real-Time Operational Dashboard
+- Predictive Maintenance Analytics
+- Real-Time Airline Operations Dashboard
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ali Ajam**
 
-Mechanical Engineering | Aviation | Data Analytics | Artificial Intelligence
+Mechanical Engineering • Aviation • Data Analytics • Artificial Intelligence
 
 GitHub:
+
 https://github.com/aliajam9731-del
+
+---
+
+# ⭐ If you found this project interesting, consider giving it a star.
